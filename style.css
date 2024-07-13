@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.game-name{
+    background-color: #081b31;
+    color: white;
+    height: 60px;
+    line-height: 60px;
+}
+.choice{
+    height: 150px;
+    width: 150px;
+   object-fit: cover;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+}
+.image{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.score{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.you-score{
+    padding-left: 40px;
+   padding-right: 40px;
+}
+.comp-score{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.score-name{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+}
+.you-name{
+    padding-left: 44px;
+    padding-right: 31px;
+}
+.comp-name{
+    padding-left: 26px;
+    padding-right: 40px;
+}
+.msg-display{
+    margin-top: 40px;
+    font-size: 30px;
+    background-color: #081b31;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 8px 8px 8px 8px;
+}
+.choice:hover{
+    opacity: 0.8;
+    border: 5px solid black;
+}
